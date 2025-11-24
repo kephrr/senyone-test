@@ -101,9 +101,18 @@ export const Carousel: React.FC<CarouselProps> = ({
               className="absolute inset-0 flex flex-col justify-center p-10 w-full h-full"
             >
               <div className="w-full max-w-5xl mx-auto text-white">
-                {slides[current].badge && 
-                  <span className="mb-6 text-lg opacity-95 p-2 border-[#00929E] border-2 rounded-md border-white">{slides[current].badge}</span>
-                }
+                {/*<div className="flex gap-6">
+                {slides.map((slide) => {
+                    return (  <span
+                        key={slide.id}
+                        className="mb-6 text-sm opacity-95 p-2 border-[#00929E] border rounded-md border-white"
+                      >
+                        {slide.badge}
+                      </span>
+                    )
+                })}
+                </div>*/}
+                
                 
                 {/* Titre avec taille fixe 75px */}
                 <h2 className="text-[75px] font-bold mb-4 leading-tight font-neue-plak">

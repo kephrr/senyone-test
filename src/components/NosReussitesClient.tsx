@@ -105,8 +105,8 @@ export default function ClientCarousel() {
   return (
     <div className=" py-12 px-4">
       <div className="max-w-5xl mx-auto text-start">
-        <h2 className="text-3xl font-bold font-neue-plak">Nos réussites clients</h2>
-        <p className="text-gray-600 mt-2 font-neue-plak-normal">
+        <h1 className="text-3xl font-bold font-neue-plak">Nos réussites clients</h1>
+        <p className="text-lg text-[#383838] max-w-2xl text-start font-neue-plak-normal">
           De l’idée à l’impact. Des résultats concrets.
         </p>
       </div>
@@ -158,9 +158,13 @@ export default function ClientCarousel() {
                       <span className="font-semibold">Impact :</span>{" "}
                       {item.impact}
                     </p>
-                    <button className="border border-gray-400 rounded-md px-4 py-2 text-sm hover:bg-gray-100">
+                    {/** 
+                     * 
+                     <button className="border border-gray-400 rounded-md px-4 py-2 text-sm hover:bg-gray-100">
                       {item.buttonText}
                     </button>
+                    */}
+                    
                   </div>
                 ))}
               </div>

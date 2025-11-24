@@ -131,12 +131,12 @@ const Navbar = () => {
                   </ul>
               </div>
             </div>
-            <a href="Nos-solutions" 
+            <a href="#" 
             className={`${isScrolled ? 'text-gray-900 hover:text-gray-600' : 'text-white/90 hover:text-white'} 
             transition-colors font-medium text-xs`}>
               Nos solutions
             </a>
-            <a href="Blog" className={`${isScrolled ? 'text-gray-900 hover:text-gray-600' : 'text-white/90 hover:text-white'} 
+            <a href="#" className={`${isScrolled ? 'text-gray-900 hover:text-gray-600' : 'text-white/90 hover:text-white'} 
             transition-colors font-medium text-xs`}>
               Blog
             </a>
@@ -144,7 +144,7 @@ const Navbar = () => {
 
           {/* ✅ Contact Button */}
           <Button className="btn-coral md:block rounded-xl text-xs">
-             <a href="#" className="text-white/90 hover:text-white transition-colors font-medium">
+             <a href="/contacts" className="text-white/90 hover:text-white transition-colors font-medium">
               Nous contacter
             </a>
           </Button>

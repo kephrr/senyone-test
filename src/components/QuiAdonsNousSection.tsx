@@ -63,11 +63,11 @@ const slides: Slide[] = [
 export default function QuiAdonsNousSection() {
   return (
     <section className="py-16">
-        <div className="text-start mb-10 flex flex-col mx-28">
-          <h1 className="md:min-w-5xl text-4xl md:text-2xl font-bold text-[#000000] mb-2 font-neue-plak">
+        <div className="text-start mb-10 flex flex-col max-w-5xl mx-auto">
+          <h1 className="text-3xl font-bold font-neue-plak">
             Qui aidons-nous ?
           </h1>
-          <p className="text-lg text-[#383838] max-w-2xl text-start font-neue-plak-normal">
+          <p className="text-lg text-[#383838] max-w-2xl text-start font-neue-plak-normal my-2">
             Chaque direction a ses défis. Nous avons vos solutions
           </p>
         </div>

@@ -87,9 +87,11 @@ export default function TransformationCTA() {
         <div className="border-t border-white/20 my-8"></div>
         
         {/* Bouton d'action */}
-        <button className="bg-white text-blue-900 px-8 py-2 rounded-full font-semibold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-          Choisir mon parcours
-        </button>
+        <a href="/contacts">
+          <button className="bg-white px-8 py-2 rounded-full font-semibold text-lg">
+            Nous contacter
+          </button>
+        </a>
       </div>
     </section>
   );

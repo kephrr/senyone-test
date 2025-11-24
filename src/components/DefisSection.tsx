@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-2 mb-16 font-neue-plak-normal">
           {/* Card 1: Digitalisation Zero Paper */}
           <Card className="p-8 bg-white rounded-2xl shadow-lg border-0">
-            <div className="mb-6 mx-auto">
+            <div className="mb-6 mx-auto h-32 mb-4">
               <PropertyDefault />
             </div>
 
@@ -49,7 +49,7 @@ export default function HomePage() {
           </Card>
 
           {/* Card 2: Automatisation & processus */}
-          <Card className="p-8 bg-white rounded-2xl shadow-lg border-0 font-neue-plak-normal">
+          <Card className="p-8 bg-white rounded-2xl shadow-lg border-0">
             <div className="mb-6">
               <div className="relative w-full h-32 mb-4">
                 {/* Connecting tasks mockup */}
@@ -57,9 +57,9 @@ export default function HomePage() {
               </div>
             </div>
 
-            <h3 className="text-xl font-semibold text-[#000000] mb-4">Automatisation & processus</h3>
+            <h3 className="text-xl font-semibold text-[#000000] mb-4 font-neue-plak">Automatisation & processus</h3>
 
-            <p className="text-[#383838] mb-4">Vos équipes perdent du temps sur des tâches répétitives ?</p>
+            <p className="text-[#383838] mb-4 font-neue-plak-normal">Vos équipes perdent du temps sur des tâches répétitives ?</p>
 
             <div className="mb-4">
               <p className="text-sm font-medium text-[#000000] mb-2 font-neue-plak">Solution :</p>
@@ -116,7 +116,7 @@ export default function HomePage() {
         {/* CTA Button */}
         <div className="text-center font-neue-plak-thin leading-0">
           <Button className="bg-[#00929e] text-white px-8 py-3 rounded-full text-lg transition-colors">
-            Nous contacter
+            <a href="/contacts">Nous contacter</a>
           </Button>
         </div>
       </div>
